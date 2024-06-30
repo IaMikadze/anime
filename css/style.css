@@ -1,0 +1,168 @@
+.background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.powerpuffs1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.powerpuffs {
+  position: absolute;
+}
+
+.powerpuffs-image {
+  position: absolute;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@keyframes identifier {
+}
+.girls {
+  background-color: aqua;
+}
+.him-image {
+  position: absolute;
+  height: 300px;
+  top: 55%;
+  right: 5%;
+}
+.star {
+  position: absolute;
+  top: 10%; /* Initial top position */
+  left: 10%;
+  transform: translate(-50%, 0);
+  animation: starMove 5s ease-in-out 2s infinite;
+}
+.star-image2 {
+  position: absolute;
+  height: 150px;
+}
+@keyframes starMove {
+  from {
+    top: 10%;
+    left: 10%;
+  }
+  to {
+    top: 75%;
+    left: 65%;
+  }
+}
+.star2 {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%, 0);
+  animation: starMove2 5s ease-in-out 4s infinite;
+}
+@keyframes starMove2 {
+  from {
+    top: 10%;
+    left: 80%;
+  }
+  to {
+    top: 70%;
+    left: 10%;
+  }
+}
+
+.bubbles {
+  position: relative;
+  animation: Move 1s linear 2s infinite alternate;
+  top: 13%;
+  left: -40%;
+  transform: translate(-50%, -50%);
+}
+
+.bubbles-image {
+  position: absolute;
+  width: 180px;
+}
+@keyframes Move {
+  from {
+    top: 5%;
+  }
+  to {
+    top: 8%;
+  }
+}
+.buttercup {
+  position: relative;
+  top: 14%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  animation: MoveButtercup 1s ease-in-out 2s infinite alternate;
+}
+@keyframes MoveButtercup {
+  from {
+    top: 14%;
+  }
+  to {
+    top: 15%;
+  }
+}
+.buttercup-image {
+  position: absolute;
+  width: 150px;
+}
+.blossom {
+  position: relative;
+  top: -55%;
+  left: 5%;
+  animation: blossomMove 1s ease-out 2s infinite alternate;
+}
+@keyframes blossomMove {
+  from {
+    top: -55%;
+  }
+  to {
+    top: -50%;
+  }
+}
+.blossom-image {
+  position: absolute;
+  width: 130px;
+}
+.press {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: violet;
+  font-size: 35px;
+  font-weight: bolder;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.press:hover {
+  color: violet;
+
+  font-size: 50px;
+}
+.moon {
+  position: absolute;
+  top: -5%;
+  left: 20%;
+  animation: MoonMove 5s ease-out 2s infinite alternate;
+}
+@keyframes MoonMove {
+  from {
+    top: 0%;
+  }
+  to {
+    top: 5%;
+  }
+}
+.moon-image {
+  position: absolute;
+  height: 100px;
+}
